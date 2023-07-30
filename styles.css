@@ -1,0 +1,179 @@
+/* Globale Stile */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.work-in-progress {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 40px; /* Größerer Innenabstand */
+    border-radius: 20px; /* Größere Rundung */
+    margin: 20px auto;
+    max-width: 900px; /* Größere maximale Breite */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Stile für den Bereich mit Link */
+.external-link {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 40px; /* Größerer Innenabstand */
+    border-radius: 20px; /* Größere Rundung */
+    margin: 20px auto;
+    max-width: 900px; /* Größere maximale Breite */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.external-link h2 {
+    margin-bottom: 10px;
+}
+
+.external-link a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.external-link a:hover {
+    background-color: #0056b3;
+}
+
+/* Stile für die Foto-Galerie */
+.foto-gallery-container {
+    background-color: #f9f9f9;
+    padding: 40px; /* Größerer Innenabstand */
+    border-radius: 20px; /* Größere Rundung */
+    margin: 20px auto;
+    max-width: 900px; /* Größere maximale Breite */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.gallery-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.foto-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.foto-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-height: 200px; /* Maximalhöhe für die Bilder, passe dies bei Bedarf an */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.foto-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* Footer */
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.fancy-link {
+    color: #444; /* Standardfarbe des Links */
+    text-decoration: none; /* Link-Unterstreichung entfernen */
+    transition: color 0.2s ease; /* Sanfter Farbübergang beim Hovern */
+  }
+  
+  .fancy-link:hover {
+    color: #233; /* Farbe ändern, wenn der Mauszeiger darüber fährt */
+  }
+
+.site-wrapper {
+    min-height: 100vh;
+}
+
